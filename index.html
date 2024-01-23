@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home/X/</title>
+    <link rel="shortcut icon" />
+    <link rel="stylesheet" href="./src/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+  </head>
+  <body class="bg-black text-white">
+    <div class="flex justify-center md:container mx-auto">
+      <div class="first w-20 md:w-[70%]">
+        <div class="sideBar flex md:items-end flex-col sticky top-0">
+          <div class="logo invert my-4 self-start mx-16">
+            <svg
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+              class="w-8 m-auto r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-lrsllp r-1nao33i r-16y2uox r-8kz0gk"
+            >
+              <g>
+                <path
+                  d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"
+                ></path>
+              </g>
+            </svg>
+          </div>
+          <ul class="flex flex-col text-xl space-y-3 md:px-11 font-bold w-full">
+            <li
+              class="flex md:justify-end gap-3 justify-center px-4 md:w-fit hover:bg-gray-900 cursor-pointer md:px-5 py-3 rounded-full"
+            >
+              <span class="material-symbols-outlined"> Home </span
+              ><span class="hidden md:block"> Home</span>
+            </li>
+
+            <li
+              class="flex md:justify-start gap-3 justify-center px-4 md:w-fit hover:bg-gray-900 cursor-pointer md:px-5 py-3 rounded-full"
+            >
+              <span class="material-symbols-outlined"> search </span>
+              <span class="hidden md:block"> Search</span>
+            </li>
+            <li
+              class="flex md:justify-start gap-3 justify-center px-4 md:w-fit hover:bg-gray-900 cursor-pointer md:px-5 py-3 rounded-full"
+            >
+              <span class="material-symbols-outlined"> notifications </span
+              ><span class="hidden md:block"> notifications</span>
+            </li>
+            <li
+              class="flex md:justify-start gap-3 justify-center px-4 md:w-fit hover:bg-gray-900 cursor-pointer md:px-5 py-3 rounded-full"
+            >
+              <span class="material-symbols-outlined"> mail </span
+              ><span class="hidden md:block"> Message</span>
+            </li>
+            <li
+              class="flex md:justify-start gap-3 justify-center px-4 md:w-fit hover:bg-gray-900 cursor-pointer md:px-5 py-3 rounded-full"
+            >
+              <span class="material-symbols-outlined"> draft </span
+              ><span class="hidden md:block"> Grock</span>
+            </li>
+
+            <li
+              class="flex md:justify-start gap-3 justify-center px-4 md:w-fit hover:bg-gray-900 cursor-pointer md:px-5 py-3 rounded-full"
+            >
+              <span class="material-symbols-outlined"> list_alt </span
+              ><span class="hidden md:block"> list</span>
+            </li>
+            <li
+              class="flex md:justify-start gap-3 justify-center px-4 md:w-fit hover:bg-gray-900 cursor-pointer md:px-5 py-3 rounded-full"
+            >
+              <span class="material-symbols-outlined"> group </span
+              ><span class="hidden md:block"> community</span>
+            </li>
+
+            <li
+              class="flex md:justify-start gap-3 justify-center px-4 md:w-fit hover:bg-gray-900 cursor-pointer md:px-5 py-3 rounded-full"
+            >
+              <span class="material-symbols-outlined"> account_circle </span
+              ><span class="hidden md:block"> account</span>
+            </li>
+            <li
+              class="flex md:justify-start gap-3 justify-center px-4 md:w-fit hover:bg-gray-900 cursor-pointer md:px-5 py-3 rounded-full"
+            >
+              <span class="material-symbols-outlined"> more_horiz </span
+              ><span class="hidden md:block"> More</span>
+            </li>
+            <li class="flex justify-start gap-3">
+              <div class="button w-full text-center my-4">
+                <button
+                  class="hidden md:block bg-blue-600 text-white rounded-full py-3 px-16"
+                >
+                  Post
+                </button>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="second w-full border border-x-white border-y-black">
+        <div class="top flex m-3 relative">
+          <div class="left flex justify-center w-1/2 text-lg">For You</div>
+          <div class="left flex justify-center w-1/2 text-lg">Following</div>
+          <div class="setting">
+            <span class="material-symbols-outlined"> settings </span>
+          </div>
+        </div>
+        <hr />
+        <div class="WhatisHap flex gap-4">
+          <div class="img">
+            <img
+              class="w-[50%] my-3 mx-3 md:w-[40%]"
+              src="https://www.kasandbox.org/programming-images/avatars/spunky-sam.png"
+              alt=""
+            />
+          </div>
+          <div>
+            <input
+              type="text"
+              placeholder="For You...."
+              class="w-full h-7 my-5 bg-black text-white outline-none"
+              name="for You"
+              id=""
+            />
+            <div class="text-blue-600 flex item-center gap-3">
+              <span class="material-symbols-outlined text-blue">
+                globe_asia
+              </span>
+              <span>Every One Can replay</span>
+            </div>
+            <div class="h-[1.2px] w-[100%] bg-white my-3"></div>
+            <div class="icons text-blue-700">
+              <span class="material-symbols-outlined hover:cursor-pointer">
+                image
+              </span>
+              <span class="material-symbols-outlined hover:cursor-pointer">
+                gif_box
+              </span>
+              <span class="material-symbols-outlined hover:cursor-pointer">
+                low_priority
+              </span>
+              <span class="material-symbols-outlined hover:cursor-pointer">
+                mood
+              </span>
+              <span class="material-symbols-outlined hover:cursor-pointer">
+                calendar_clock
+              </span>
+              <span class="material-symbols-outlined hover:cursor-pointer">
+                location_on
+              </span>
+            </div>
+          </div>
+        </div>
+        <br />
+        <hr />
+        <div class="posta">
+          <div class="post">
+            <div class="flex">
+              <div class="image">
+                <img
+                  class="w-16"
+                  src="https://www.kasandbox.org/programming-images/avatars/spunky-sam.png"
+                  alt=""
+                />
+              </div>
+              <div class="content my-3">
+                <span class="font-bold hover:underline">@space_station </span>
+                <span class="text-gray-500">Dragon docked with the.. 6h</span>
+                <div>Legend</div>
+                <div class="postimg m-4 ml-0">
+                  <img
+                    src="https://plus.unsplash.com/premium_photo-1663075847012-c781e0d194ce?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cHJvZ3JhbW1lcnxlbnwwfHwwfHx8MA%3D%3D"
+                    alt=""
+                  />
+                </div>
+                <div class="icons-post flex w-full justify-around">
+                  <div class="flex justify-around mx-3">
+                    <span class="material-symbols-outlined"> chat_bubble </span>
+                    12
+                  </div>
+
+                  <div class="flex justify-around mx-3">
+                    <span class="material-symbols-outlined"> swap_calls </span>
+                    100K
+                  </div>
+
+                  <div class="flex justify-around mx-3">
+                    <span class="material-symbols-outlined"> favorite </span>
+                    100K
+                  </div>
+
+                  <div class="flex justify-around mx-3">
+                    <span class="material-symbols-outlined"> bar_chart </span>
+                    100K
+                  </div>
+
+                  <div class="flex justify-around mx-3">
+                    <span class="material-symbols-outlined"> bookmark </span>
+                  </div>
+
+                  <div class="flex justify-around mx-3">
+                    <span class="material-symbols-outlined"> upload </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div class="posta">
+          <div class="post">
+            <div class="flex">
+              <div class="image">
+                <img
+                  class="w-16"
+                  src="https://www.kasandbox.org/programming-images/avatars/spunky-sam.png"
+                  alt=""
+                />
+              </div>
+              <div class="content my-3">
+                <span class="font-bold hover:underline">@space_station </span>
+                <span class="text-gray-500">Dragon docked with the.. 6h</span>
+                <div>Legend</div>
+                <div class="postimg m-4 ml-0">
+                  <img
+                    src="https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZ3JhbW1lcnxlbnwwfHwwfHx8MA%3D%3D"
+                    alt=""
+                  />
+                </div>
+                <div class="icons-post flex w-full justify-around">
+                  <div class="flex justify-around mx-3">
+                    <span class="material-symbols-outlined"> chat_bubble </span>
+                    12
+                  </div>
+
+                  <div class="flex justify-around mx-3">
+                    <span class="material-symbols-outlined"> swap_calls </span>
+                    100K
+                  </div>
+
+                  <div class="flex justify-around mx-3">
+                    <span class="material-symbols-outlined"> favorite </span>
+                    100K
+                  </div>
+
+                  <div class="flex justify-around mx-3">
+                    <span class="material-symbols-outlined"> bar_chart </span>
+                    100K
+                  </div>
+
+                  <div class="flex justify-around mx-3">
+                    <span class="material-symbols-outlined"> bookmark </span>
+                  </div>
+
+                  <div class="flex justify-around mx-3">
+                    <span class="material-symbols-outlined"> upload </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="third w-full hidden md:block">
+        <div class="w-[70%]">
+          <div class="search">
+            <input
+              type="search "
+              placeholder="Search"
+              class="w-1/2 rounded-full bg-gray-800 text-white py-2 m-3 px-4"
+            />
+          </div>
+          <div
+            class="whats sticky top-0 m-3 py-5 px-3 bg-gray-900 space-y-3 bor"
+          >
+            <h1 class="text-xl font-bold">whats happning</h1>
+            <div class="item mx-3 hover:bg-gray-800 cursor-pointer">
+              <div class="font-bold mx-3">Trending in india</div>
+              <div class="font-bold mx-3">#Orry</div>
+              <div class="font-bold mx-3">40.2K</div>
+            </div>
+            <div class="item mx-3 hover:bg-gray-800 cursor-pointer">
+              <div class="font-bold mx-3">#IncreaseRailwayALPVacancy</div>
+              <div class="font-bold mx-3">#Orry</div>
+              <div class="font-bold mx-3">1.9M</div>
+            </div>
+            <div class="item mx-3 hover:bg-gray-800 cursor-pointer">
+              <div class="font-bold mx-3">Trending in india</div>
+              <div class="font-bold mx-3">#Orry</div>
+              <div class="font-bold mx-3">40.2K</div>
+            </div>
+            <div class="item mx-3 hover:bg-gray-800 cursor-pointer">
+              <div class="font-bold mx-3">Trending in india</div>
+              <div class="font-bold mx-3">#Orry</div>
+              <div class="font-bold mx-3">40.2K</div>
+            </div>
+          </div>
+          <div
+            class="whats sticky top-[50vh] m-3 py-5 px-3 bg-gray-900 space-y-3 bor"
+          >
+            <h1 class="text-xl font-bold">Who To follow</h1>
+            <div class="item p-3">
+              <div class="font-bold mx-3 my-3 flex items-center">
+    
+                  <img
+                    class=" p-4 w-16 h-16 rounded-full"
+                    src="https://png.pngtree.com/element_our/20200702/ourmid/pngtree-small-url-icon-opened-in-the-browser-image_2291957.jpg"
+                    alt=""
+                  />
+                  <div class="p2 mx-2">
+                    <div>Guru</div>
+                   <div class="text-gray-400">@Guru</div>
+              </div>
+              <button class= "text-black mx-3  px-5 py-2 rounded-full border">follow</button>
+            </div>
+              <div class="font-bold mx-3 my-3 flex items-center">
+    
+                  <img
+                    class=" p-4 w-16 h-16 rounded-full"
+                    src="data:image/jpeg;base64,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"
+                    alt=""
+                  />
+                  <div class="p2 mx-2">
+                    <div>Virat</div>
+                   <div class="text-gray-400">@V.kohli</div>
+              </div>
+              <button class= "text-black mx-3  px-5 py-2 rounded-full border">follow</button>
+            </div>
+
+            <div class="font-bold mx-3 my-3"><a href="">View More</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
